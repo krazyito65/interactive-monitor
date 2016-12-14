@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?equye1');
-    src: url('../fonts/icomoon.eot?equye1#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?equye1') format('truetype'), url('../fonts/icomoon.woff?equye1') format('woff'), url('../fonts/icomoon.svg?equye1#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?equye1#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?equye1') format('truetype'), url('../fonts/icomoon.woff?equye1') format('woff'), url('./symbol-defs.svg?equye1#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -175,4 +175,7 @@
     left: 150px;
     width: 150px;
     transition: all .4s ease 0s;
+}
+.icon-x-altx-alt:before {
+  content: "\e900";
 }
