@@ -6,5 +6,5 @@ $("#menu-toggle").click(function(e) {
 
 $("#CreateNew").click(function(e) {
         console.log("Adding new Menu");            
-        $("#grabME").after("<li>Link1<a><span class=\"sub_icon icon-link\"></span></a></li>")
+        $("#grabME").after("<li><a>Link1<svg class=\"icon icon-link\"><use xlink:href=\"symbol-defs.svg#icon-link\"></use></svg></a></li>")
 });
