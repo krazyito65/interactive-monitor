@@ -46,7 +46,7 @@
 }
 
 
-#sidebar_menu li a, .sidebar-nav li a {
+#sidebar_menu li, .sidebar-nav li{
     color: #999;
     display: block;
     float: left;
@@ -72,20 +72,25 @@
   text-indent: 20px;
 }
 
-.sidebar-nav li a {
+.sidebar-nav a {
+    color: #999;
+    text-decoration: none;
+}
+
+.sidebar-nav li {
   color: #999999;
   display: block;
   text-decoration: none;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li:hover {
   color: #fff;
   background: rgba(255,255,255,0.2);
   text-decoration: none;
 }
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
+.sidebar-nav li:active,
+.sidebar-nav li:focus {
   text-decoration: none;
 }
 
